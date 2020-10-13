@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationFormFragment"
+    android:background="@drawable/bg_common">
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:background="#8EDAD3E1">
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/food_quantity">
+        </TextView>
+        <EditText
+            android:id="@+id/food_qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_brief">
+            </TextView>
+            <EditText
+                android:id="@+id/food_brief"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:layout_gravity="top"
+                android:maxLines="6"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_type">
+            </TextView>
+            <CheckBox android:id="@+id/checkbox_dry"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dry_food"
+                />
+
+            <CheckBox android:id="@+id/checkbox_wet"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wet_food" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:id="@+id/imageViewCam"
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+    </ImageView>
+    <!--<LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">-->
+
+        <ImageButton
+            android:id="@+id/camera_btn"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/my_camera_button"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+        <Button
+            android:id="@+id/donation_submit_btn"
+            android:baselineAligned="true"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="275dp"
+            android:background="@drawable/rounded_button"
+            android:layout_height="60dp"
+            android:text="@string/SubmitButton"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>

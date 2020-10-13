@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "181308612622",
+    "firebase_url": "https://seva-51db3.firebaseio.com",
+    "project_id": "seva-51db3",
+    "storage_bucket": "seva-51db3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181308612622:android:781a4acb25ba2575e31c5f",
+        "android_client_info": {
+          "package_name": "codewithpooja.com.seva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181308612622-fkh6g1v8c7chdjv0q3nhp8rqqldgamie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc0L4DA7OzgW4IjihQgzst9bVfy7skizc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181308612622-fkh6g1v8c7chdjv0q3nhp8rqqldgamie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

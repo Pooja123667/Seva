@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">seva</string>
+    <string name="donateButton">DONATE FOOD</string>
+    <string name="collectButton">COLLECT FOOD</string>
+    <string name="username">Username -</string>
+    <string name="password">Password -</string>
+    <string name="SubmitButton">SUBMIT </string>
+    <string name="signUpLink">Signup</string>
+    <string name="reg_name">Name -</string>
+    <string name="reg_contact">Contact -</string>
+    <string name="reg_uname">Username -</string>
+    <string name="reg_password">Set password -</string>
+    <string name="reg_repassword">Confirm password -</string>
+    <string name="acc">Account type -</string>
+    <string name="donorScreenDonation">Donate</string>
+    <string name="donorScreenStatus">Status</string>
+    <string name="read_more">Read More</string>
+    <string name="hello_blank_fragment">Collector side donation information</string>
+    <string name="food_quantity">Quantity (kg) - </string>
+    <string name="food_brief">Food Description - </string>
+    <string name="food_type">Food Type - </string>
+    <string name="dry_food">DRY</string>
+    <string name="wet_food">WET</string>
+    <string name="donation_quantity_donorside">Quantity (kg) -</string>
+    <string name="donation_date">Date -</string>
+    <string name="donation_status">Donation Accepted</string>
+    <string name="donation_status_name">Collector name -</string>
+    <string name="donation_status_contact">Contact -</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="accountType">
+        <item>Food Donor</item>
+        <item>Food Collector</item>
+    </string-array>
+</resources>

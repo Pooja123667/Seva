@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_common"
+    android:id="@+id/collector_donation_acceptance"
+    tools:context=".collectorside_donation">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <ImageView
+            android:layout_marginTop="5sp"
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100sp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/donor_name"
+            android:layout_marginTop="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="donor name"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp">  <!--data will come from database-->
+        </TextView>
+
+        <TextView
+            android:id="@+id/food_brief"
+            android:layout_marginTop="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="14sp"
+            android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+             susce. Mauris rhoncus aenean vel elit. Gravida in fermentum et
+             sollicitudin ac orci phasellus egestas tellus.">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/donor_contact"
+            android:layout_marginTop="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="donor contact"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/food_qty"
+            android:layout_marginTop="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food quantity"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/accept_btn"
+                android:layout_width="95dp"
+                android:layout_height="71dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginBottom="5dp"/>
+
+
+            <ImageButton
+                android:id="@+id/reject_btn"
+                android:layout_width="95dp"
+                android:layout_height="71dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

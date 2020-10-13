@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selectDonation"
+    android:background="@drawable/bg_common">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <ImageView
+            android:layout_marginTop="5sp"
+            android:id="@+id/imageViewC"
+            android:layout_width="750px"
+            android:layout_height="550px"
+            android:layout_marginLeft="65sp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/donor_name"
+            android:layout_marginTop="30sp"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="donor name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textSize="20sp">  <!--data will come from database-->
+        </TextView>
+
+        <TextView
+            android:id="@+id/food_brief"
+            android:layout_marginTop="22sp"
+            android:layout_width="500sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textSize="20sp"
+            android:text="Food brief">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/donor_contact"
+            android:layout_marginTop="22sp"
+            android:layout_width="350sp"
+            android:layout_height="wrap_content"
+            android:text="donor contact"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/food_qty"
+            android:layout_marginTop="22sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Food quantity"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textSize="20sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/food_date"
+            android:layout_marginTop="22sp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Food date"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textSize="20sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/accept_btn"
+                android:layout_width="95dp"
+                android:layout_height="71dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginBottom="5dp"/>
+
+
+            <ImageButton
+                android:id="@+id/reject_btn"
+                android:layout_width="95dp"
+                android:layout_height="71dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

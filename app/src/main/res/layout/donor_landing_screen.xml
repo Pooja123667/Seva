@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/donor_toolbar"
+                android:layout_width="match_parent"
+             android:background="@drawable/bg_common"
+             android:layout_height="40dp">
+           </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            app:tabTextColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:id="@+id/donor_tab_layout"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/donor_view_pager"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    </androidx.viewpager.widget.ViewPager>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_rawRes="@raw/notification"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="bottom|right"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true">
+    </com.airbnb.lottie.LottieAnimationView>
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom|right"
+    android:layout_marginBottom="31dp"
+    android:layout_marginRight="25dp"
+    android:id="@+id/donor_notif">
+
+
+</com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
